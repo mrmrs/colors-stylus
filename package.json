@@ -1,0 +1,29 @@
+{
+  "name": "colors-stylus",
+  "version": "1.0.0",
+  "description": "Better default colors for the web",
+  "main": "css/colors.css",
+  "scripts": {
+    "start": "stylus < stylus/colors.styl > css/colors.css && stylus --compress < stylus/colors.styl > css/colors.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmrs/colors-stylus.git"
+  },
+  "keywords": [
+    "stylus",
+    "design",
+    "a11y",
+    "css",
+    "colors"
+  ],
+  "author": "mrmrs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmrs/colors-stylus/issues"
+  },
+  "homepage": "https://github.com/mrmrs/colors-stylus#readme",
+  "devDependencies": {
+    "stylus": "^0.53.0"
+  }
+}
